@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes with modern templates and ATS-friendly formatting.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF"
+    ],
+    "icon": "file-text"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Website Kit",
+    "description": "Launch your personal portfolio website بسرعة with ready-made designs.",
+    "price": 29.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Responsive design",
+      "SEO optimized",
+      "Custom domain support"
+    ],
+    "icon": "globe"
+  },
+  {
+    "id": 3,
+    "name": "AI Code Assistant",
+    "description": "Boost your coding productivity with AI-powered suggestions and auto-complete.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Smart code suggestions",
+      "Multi-language support",
+      "Debug assistance"
+    ],
+    "icon": "cpu"
+  },
+  {
+    "id": 4,
+    "name": "Interview Prep Master",
+    "description": "Prepare for technical interviews with curated questions and mock tests.",
+    "price": 19.99,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "500+ interview questions",
+      "Mock interviews",
+      "Progress tracking"
+    ],
+    "icon": "briefcase"
+  },
+  {
+    "id": 5,
+    "name": "Design System Pack",
+    "description": "Complete UI design system with components, icons, and style guides.",
+    "price": 49.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Reusable components",
+      "Figma files included",
+      "Dark & light themes"
+    ],
+    "icon": "layers"
+  },
+  {
+    "id": 6,
+    "name": "Freelancer Toolkit",
+    "description": "Everything you need to start and grow your freelancing career.",
+    "price": 12.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Proposal templates",
+      "Client management",
+      "Invoice generator"
+    ],
+    "icon": "tool"
+  },
+  {
+    "id": 7,
+    "name": "JavaScript Mastery Course",
+    "description": "Master JavaScript from basics to advanced concepts with real projects.",
+    "price": 59.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Project-based learning",
+      "Lifetime access",
+      "Certificate included"
+    ],
+    "icon": "code"
+  },
+  {
+    "id": 8,
+    "name": "Cloud Hosting Starter",
+    "description": "Fast and secure cloud hosting solution for your web apps.",
+    "price": 5.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "99.9% uptime",
+      "Free SSL",
+      "One-click deployment"
+    ],
+    "icon": "cloud"
+  }
+]
