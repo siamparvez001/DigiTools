@@ -3,7 +3,7 @@ const NavBar = () => {
     return (
         <div className="navbar">
             <div className="navbar-start">
-                <div className="flex items-center gap-1 font-bold text-xl"> <span className="">DigiTools</span> </div>
+                <div className="flex digitools items-center gap-1 font-bold text-xl "> <span className="">DigiTools</span> </div>
             </div>
             <div className="navbar-center hidden md:flex">
                 <ul className="menu menu-horizontal gap-10 px-1 text-lg">

@@ -2,11 +2,11 @@ import React from 'react';
 import checkImg from "../assets/Check.png"
 const Simple = () => {
     return (
-        <div className='py-20'>
-            <div className='flex flex-col justify-center items-center '>
-                <h1>Simple, Transparent Pricing</h1>
-                <p>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
-                <div className='flex justify-between items-center gap-5'>
+        <div className='py-20 '>
+            <div className='flex flex-col justify-center items-center space-y-5'>
+                <h1 className='text-4xl font-bold'>Simple, Transparent Pricing</h1>
+                <p className='opacity-60'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
+                <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-between items-center gap-5 items-stretch'>
                     <div className='border p-8 rounded-2xl w-full bg-gray-100'>
                         <h1 className='text-2xl font-bold'>Starter</h1>
                         <p className='opacity-70'>Perfect for getting started</p>

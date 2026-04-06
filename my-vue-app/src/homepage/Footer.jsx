@@ -5,33 +5,33 @@ import twiterImg from "../assets/Twitter.png"
 
 const Footer = () => {
     return (
-        <div className='bg-blue-400 h-[400px]'>
-            <div className='py-20 mt-10'>
-                <div className='flex justify-between gap-5 pb-10'>
+        <div className='footer pl-20'>
+            <div className='py-20 mt-10 text-white'>
+                <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-5 justify-between gap-5 pb-10 space-y-5'>
                     <div className='space-y-4'>
                         <h1 className='text-3xl   '>DigiTools</h1>
-                        <p>Premium digital tools for creators, professionals, and businesses. Work smarter with our suite of powerful tools.</p>
+                        <p className='opacity-70'>Premium digital tools for creators, professionals, and businesses. Work smarter with our suite of powerful tools.</p>
                     </div>
                     <div className='space-y-2'>
                         <h1 className='text-2xl'>Product</h1>
-                        <h1>Features</h1>
-                        <h1>Pricing</h1>
-                        <h1>Templates</h1>
-                        <h1>Integrations</h1>
+                        <h1 className='opacity-70'>Features</h1>
+                        <h1 className='opacity-70'>Pricing</h1>
+                        <h1 className='opacity-70'>Templates</h1>
+                        <h1 className='opacity-70'>Integrations</h1>
                     </div>
                     <div className='space-y-2'>
                         <h1 className='text-2xl'>Company</h1>
-                        <h1>About</h1>
-                        <h1>Blog</h1>
-                        <h1>Careers</h1>
-                        <h1>Press</h1>
+                        <h1 className='opacity-70'>About</h1>
+                        <h1 className='opacity-70'>Blog</h1>
+                        <h1 className='opacity-70'>Careers</h1>
+                        <h1 className='opacity-70'>Press</h1>
                     </div>
                     <div className='space-y-2'>
                         <h1 className='text-2xl'>Resources</h1>
-                        <h1>Documentation</h1>
-                        <h1>Help Center</h1>
-                        <h1>Community</h1>
-                        <h1>Contact</h1>
+                        <h1 className='opacity-70'>Documentation</h1>
+                        <h1 className='opacity-70'>Help Center</h1>
+                        <h1 className='opacity-70'>Community</h1>
+                        <h1 className='opacity-70'>Contact</h1>
                     </div>
                     <div className='space-y-2'>
                         <h1 className='text-2xl'>Social Links</h1>
@@ -43,7 +43,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <hr className='pt-10' />
-                <div className='flex justify-between'>
+                <div className='grid sm:grid-cols-1 md:grid-cols-2 space-y-7 justify-between opacity-60'>
                     <div>
                         <p>© 2026 Digitools. All rights reserved.</p>
                     </div>

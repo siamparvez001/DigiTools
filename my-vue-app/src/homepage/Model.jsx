@@ -1,14 +1,70 @@
-import React from 'react';
 
-const Models = () => {
-    return (
-        <div>
-            <div className='flex flex-col justify-center items-center w-[400px] mx-auto'>
-                <h1 className='text-4xl font-bold pb-5'>Premium Digital Tools</h1>
-                <p className='flex items-center justify-center opacity-60'>Choose from our curated collection of premium digital products designed to boost your productivity and creativity.</p>
-            </div>
+
+// import React, { useState, useEffect } from "react"
+// import ModelCard from "./ModelCard"
+
+// const Models = ({ modelPromise, cartItems, addToCart }) => {
+//   const [models, setModels] = useState([])
+
+//   useEffect(() => {
+//     modelPromise.then(data => setModels(data))
+//   }, [modelPromise])
+
+  
+//   const availableModels = models.filter(
+//     model => !cartItems.find(item => item.id === model.id)
+//   )
+
+//   return (
+//     <div className="py-10 max-w-7xl mx-auto">
+//       {availableModels.length === 0 ? (
+//         <p className="text-center text-xl">All models are bought!</p>
+//       ) : (
+//         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+//           {availableModels.map(model => (
+//             <ModelCard
+//               key={model.id}
+//               model={model}
+//               cartItems={cartItems}
+//               addToCart={addToCart}
+//             />
+//           ))}
+//         </div>
+//       )}
+//     </div>
+//   )
+// }
+
+// export default Models
+
+import React, { useState, useEffect } from "react"
+import ModelCard from "./ModelCard"
+
+const Models = ({ modelPromise, cartItems, addToCart }) => {
+  const [models, setModels] = useState([])
+
+  useEffect(() => {
+    modelPromise.then(data => setModels(data))
+  }, [modelPromise])
+
+  return (
+    <div className="py-10 max-w-7xl mx-auto">
+      {models.length === 0 ? (
+        <p className="text-center text-xl">No models available!</p>
+      ) : (
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+          {models.map(model => (
+            <ModelCard
+              key={model.id}
+              model={model}
+              cartItems={cartItems}
+              addToCart={addToCart}
+            />
+          ))}
         </div>
-    );
-};
+      )}
+    </div>
+  )
+}
 
-export default Models;
+export default Models

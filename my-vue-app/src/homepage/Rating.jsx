@@ -2,8 +2,8 @@ import React from 'react';
 
 const Rating = () => {
     return (
-        <div className='py-10'>
-            <div className='flex justify-between'>
+        <div className='ratting py-10 my-20 '>
+            <div className='flex justify-between text-white px-30'>
                 <div>
                     <h1 className='text-4xl font-bold'>50k+</h1>
                     <p>Active Users</p>
