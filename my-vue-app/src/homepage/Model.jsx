@@ -1,42 +1,4 @@
 
-
-// import React, { useState, useEffect } from "react"
-// import ModelCard from "./ModelCard"
-
-// const Models = ({ modelPromise, cartItems, addToCart }) => {
-//   const [models, setModels] = useState([])
-
-//   useEffect(() => {
-//     modelPromise.then(data => setModels(data))
-//   }, [modelPromise])
-
-  
-//   const availableModels = models.filter(
-//     model => !cartItems.find(item => item.id === model.id)
-//   )
-
-//   return (
-//     <div className="py-10 max-w-7xl mx-auto">
-//       {availableModels.length === 0 ? (
-//         <p className="text-center text-xl">All models are bought!</p>
-//       ) : (
-//         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-//           {availableModels.map(model => (
-//             <ModelCard
-//               key={model.id}
-//               model={model}
-//               cartItems={cartItems}
-//               addToCart={addToCart}
-//             />
-//           ))}
-//         </div>
-//       )}
-//     </div>
-//   )
-// }
-
-// export default Models
-
 import React, { useState, useEffect } from "react"
 import ModelCard from "./ModelCard"
 

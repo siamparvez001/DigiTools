@@ -6,7 +6,7 @@ import twiterImg from "../assets/Twitter.png"
 const Footer = () => {
     return (
         <div className='footer pl-20'>
-            <div className='py-20 mt-10 text-white'>
+            <div className='py-20 mt-10 text-white w-full'>
                 <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-5 justify-between gap-5 pb-10 space-y-5'>
                     <div className='space-y-4'>
                         <h1 className='text-3xl   '>DigiTools</h1>
@@ -42,12 +42,12 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <hr className='pt-10' />
-                <div className='grid sm:grid-cols-1 md:grid-cols-2 space-y-7 justify-between opacity-60'>
+                <hr className='pt-10 ' />
+                <div className='w-full flex justify-between opacity-60'>
                     <div>
                         <p>© 2026 Digitools. All rights reserved.</p>
                     </div>
-                    <div className='flex justify-between gap-5'>
+                    <div className='flex gap-5 mx-30'>
                         <p>Privacy Policy</p>
                         <p>Terms of Service </p>
                         <p>Cookies</p>

@@ -1,7 +1,7 @@
 import cardImg from "../assets/Icon (Stroke).png"
 const NavBar = () => {
     return (
-        <div className="navbar">
+        <div className="navbar px-30  mx-auto">
             <div className="navbar-start">
                 <div className="flex digitools items-center gap-1 font-bold text-xl "> <span className="">DigiTools</span> </div>
             </div>
