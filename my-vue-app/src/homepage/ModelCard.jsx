@@ -3,7 +3,7 @@
 
 
 import React from "react"
-
+import { toast } from "react-toastify";
 const ModelCard = ({ model, cartItems, addToCart }) => {
   const isSubscribed = cartItems.find(item => item.id === model.id)
 
@@ -22,8 +22,18 @@ const ModelCard = ({ model, cartItems, addToCart }) => {
       <p>
         <span className="text-xl font-bold">${model.price}</span>/month
       </p>
-      <button
+      {/* <button
         onClick={() => addToCart(model)}
+        
+        disabled={isSubscribed}
+        className="card-Butn btn w-full rounded-2xl my-5">
+        {isSubscribed ? "Already Buy" : "Buy Now"}
+      </button> */}
+      <button
+        onClick={() => {
+          addToCart(model);
+          toast.success("Added to cart!");  // এখানে টোস্ট
+        }}
         disabled={isSubscribed}
         className="card-Butn btn w-full rounded-2xl my-5">
         {isSubscribed ? "Already Buy" : "Buy Now"}
