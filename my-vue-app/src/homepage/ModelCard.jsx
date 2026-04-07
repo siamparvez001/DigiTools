@@ -20,13 +20,12 @@ const ModelCard = ({ model, cartItems, addToCart }) => {
         ))}
       </div>
       <p>
-        <span className="text-xl font-bold">{model.price}</span>/month
+        <span className="text-xl font-bold">${model.price}</span>/month
       </p>
       <button
         onClick={() => addToCart(model)}
         disabled={isSubscribed}
-        className="btn w-full rounded-2xl my-5"
-      >
+        className="card-Butn btn w-full rounded-2xl my-5">
         {isSubscribed ? "Already Buy" : "Buy Now"}
       </button>
     </div>

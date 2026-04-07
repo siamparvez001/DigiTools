@@ -7,7 +7,7 @@ const Simple = () => {
                 <h1 className='text-4xl font-bold'>Simple, Transparent Pricing</h1>
                 <p className='opacity-60'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
                 <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-between items-center gap-5 items-stretch'>
-                    <div className='border p-8 rounded-2xl w-full bg-gray-100'>
+                    <div className='border p-10 rounded-4xl w-full bg-gray-100 flex flex-col justify-between'>
                         <h1 className='text-2xl font-bold'>Starter</h1>
                         <p className='opacity-70'>Perfect for getting started</p>
                         <p className='py-5'><span className='text-3xl font-bold'>$0/</span> month</p>
@@ -27,10 +27,12 @@ const Simple = () => {
                             <img src={checkImg} alt="" />
                             <p>1 project per month</p>
                         </div>
-                        <button className='btn w-full mt-15'>Get Started Free</button>
+                        <button className='card-butn btn w-full mt-15 rounded-4xl'>Get Started Free</button>
                     </div>
-                    <div className='border p-8 rounded-2xl w-full bg-gray-100'>
-                        <p className='flex justify-center items-center'>Most Popular</p>
+                    <div className='start border p-10 rounded-4xl w-full bg-gray-100 flex flex-col justify-between relative'>
+                        <p className='most absolute -top-3 left-1/2 -translate-x-1/2 text-white px-4 py-1 rounded-full text-sm'>
+                            Most Popular
+                        </p>
                         <h1 className='text-2xl font-bold'>Pro</h1>
                         <p className='opacity-70'>Best for professionals</p>
                         <p className='py-5'><span className='text-3xl font-bold'>$29/</span> month</p>
@@ -58,10 +60,10 @@ const Simple = () => {
                             <img src={checkImg} alt="" />
                             <p>Advanced analytics</p>
                         </div>
-                        <button className='btn w-full mt-15'>Start Pro Trial</button>
+                        <button className='btn w-full mt-15 bg-white rounded-4xl'><span className='pro'>Start Pro Trial</span></button>
                     </div>
-                    
-                    <div className='border p-8 rounded-2xl w-full bg-gray-100'>
+
+                    <div className='border p-10 rounded-4xl w-full bg-gray-100 flex flex-col justify-between'>
                         <h1 className='text-2xl font-bold'>Enterprise</h1>
                         <p className='opacity-70'>For teams and businesses</p>
                         <p className='py-5'><span className='text-3xl font-bold'>$99/</span> month</p>
@@ -89,7 +91,7 @@ const Simple = () => {
                             <img src={checkImg} alt="" />
                             <p>Custom branding</p>
                         </div>
-                        <button className='btn w-full mt-15'>Contact Sales</button>
+                        <button className='card-butn btn w-full mt-15 rounded-4xl'>Contact Sales</button>
                     </div>
                 </div>
             </div>
