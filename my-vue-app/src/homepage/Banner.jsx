@@ -5,10 +5,10 @@ import playBtnImg from "../assets/Play.png"
 const Banner = () => {
     return (
         <div className='mt-10 grid sm:grid-cols-1 md:grid-cols-2 w-full mx-auto items-center'>
-            <div>
-                <div className='space-y-5 flex flex-col justify-center  mx-auto w-1/2'>
-                    <div className='flex gap-2 bg-purple-200 rounded-2xl w-fit py-[10px] px-[15px]'>
-                        <img className='' src={circleImg} alt="" />
+            <div className=''>
+                <div className='space-y-5 px-5 flex flex-col justify-center mx-auto  md:w-1/2'>
+                    <div className='flex  gap-2 bg-purple-200 rounded-2xl w-fit py-[10px] px-[15px]'>
+                        <img  className='w-[20px] h-[20px]' src={circleImg} alt="" />
                         <p>New: AI-Powered Tools Available</p>
                     </div>
                     <h1 className='text-5xl font-bold'>Supercharge Your Digital Workflow</h1>

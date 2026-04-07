@@ -5,10 +5,10 @@ import twiterImg from "../assets/Twitter.png"
 
 const Footer = () => {
     return (
-        <div className='footer pl-20'>
-            <div className='py-20 mt-10 text-white w-full'>
-                <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-5 justify-between gap-5 pb-10 space-y-5'>
-                    <div className='space-y-4'>
+        <div className='footer '>
+            <div className='py-20  mt-10 text-white w-10/12 mx-auto'>
+                <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-5 pb-10 space-y-5'>
+                    <div className='space-y-4 '>
                         <h1 className='text-3xl   '>DigiTools</h1>
                         <p className='opacity-70'>Premium digital tools for creators, professionals, and businesses. Work smarter with our suite of powerful tools.</p>
                     </div>
@@ -47,7 +47,7 @@ const Footer = () => {
                     <div>
                         <p>© 2026 Digitools. All rights reserved.</p>
                     </div>
-                    <div className='flex gap-5 mx-30'>
+                    <div className='flex gap-5'>
                         <p>Privacy Policy</p>
                         <p>Terms of Service </p>
                         <p>Cookies</p>

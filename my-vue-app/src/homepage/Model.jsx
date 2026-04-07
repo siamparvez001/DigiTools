@@ -10,7 +10,7 @@ const Models = ({ modelPromise, cartItems, addToCart }) => {
   }, [modelPromise])
 
   return (
-    <div className="py-10 max-w-7xl mx-auto">
+    <div className="py-10 max-w-10/12 mx-auto">
       {models.length === 0 ? (
         <p className="text-center text-xl">No models available!</p>
       ) : (
